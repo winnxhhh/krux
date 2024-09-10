@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303030;
+ }
+ 
+ body{
+     margin: 0;
+ }
+ 
+ /* Nav Bar CSS */
+ .logo{
+     width: 150px;
+     float: left;
+ }
+ 
+ #logoDiv{
+     float: left;
+     display: block;
+     padding-left: 70px;
+     padding-right: 70px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ .mainNav{
+     padding: 20px;
+     padding-right: 40px;
+ }
+ 
+ #navBar{
+     background-color: #303030;
+     z-index: 1;
+     overflow: hidden;
+     width: 100%;
+     display: block;
+ }
+ 
+ .navHead{
+     padding-right: 10px;
+     float: left;
+ }
+ 
+ .navHead a{
+     color: white;
+     float: right;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     font-size: 25px;
+     padding-right: 40px;
+ }
+ .navHead a:hover{
+     color: #ff7ab6;
+     transition: 0.3s;
+ }
+ 
+ .navSearch{
+     display: block;
+     color: #ff7ab6;
+     float: right;
+     font-size: 20px;
+     padding-right: 10px;
+ }
+ 
+ .searchBar{
+     float: right;
+     padding-bottom: 15px;
+     padding-right: 70px;
+     padding-top: 17px;
+ }
+ .searchBar input{
+     height: 30px;
+     width: 200px;
+     display: inline;
+ }
+
+ /* main content css */
+ .mainContent{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+ }
+
+ .newsletterImg{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.headerTitle{
+    font-size: 50px;
+    color:#ff7ab6;
+}
+
+.postDate{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.storyNewsletter{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.textImg{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textImgVert{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCaption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+/* w3schools.com, 'Scroll to Top Button', [Online]. Available: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp [Accessed: 12- Mar- 2023].  */
+
+/* back to top button css */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #ff7ab6;
+    color:#303030;
+  }
+
+ /* Footer CSS */
+footer * {
+    width: 100%;
+    background-color: #ff7ab6;
+    color: #303030;
+}
+
+#footerMain{
+    display: flex;
+}
+
+.subscription{
+    padding-left: 67px;
+}
+
+.socials{
+    padding-left: 200px;
+    padding-right: 0px;
+}
+
+.subDesc{
+    font-size: 17px;
+}
+
+#email{
+    padding-bottom: 0px;
+    display: block;
+}
+
+.typeEmail{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+
+.buttonEmail{
+    width: 150px;
+    height: 40px;
+}
+
+button:hover{
+    background-color: #303030;
+    color: white;
+    transition: 0.3s;
+}
+
+.socIcon{
+    width: auto;
+    height: 40px;
+    float: left;
+    padding-right: 15px;
+}
+
+#pigeon{
+    width: auto;
+    height: 45px;
+    padding-right: 10px;
+}
+
+footer h4{
+    font-size: 17px;
+    display: block;
+}
+
+.pigeon{
+    padding-top: 10px;
+}
+
+.camera{
+    padding-top: 10px;
+}
+
+.play{
+    padding-top: 10px;
+}
+

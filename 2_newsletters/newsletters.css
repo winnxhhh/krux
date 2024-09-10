@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303030;
+ }
+ 
+ body{
+     margin: 0;
+ }
+ 
+ /* Nav Bar CSS */
+ .logo{
+     width: 150px;
+     float: left;
+ }
+ 
+ #logoDiv{
+     float: left;
+     display: block;
+     padding-left: 70px;
+     padding-right: 70px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ .mainNav{
+     padding: 20px;
+     padding-right: 40px;
+ }
+ 
+ #navBar{
+     background-color: #303030;
+     z-index: 1;
+     overflow: hidden;
+     width: 100%;
+     display: block;
+ }
+ 
+ .navHead{
+     padding-right: 10px;
+     float: left;
+ }
+ 
+ .navHead a{
+     color: white;
+     float: right;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     font-size: 25px;
+     padding-right: 40px;
+ }
+ .navHead a:hover{
+     color: #ff7ab6;
+     transition: 0.3s;
+ }
+ 
+ .navSearch{
+     display: block;
+     color: #ff7ab6;
+     float: right;
+     font-size: 20px;
+     padding-right: 10px;
+ }
+ 
+ .searchBar{
+     float: right;
+     padding-bottom: 15px;
+     padding-right: 70px;
+     padding-top: 17px;
+ }
+ .searchBar input{
+     height: 30px;
+     width: 200px;
+     display: inline;
+ }
+
+ /* main body CSS */
+.mainContents{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1.headLabel{
+    font-size: 50px;
+    color: #303030;
+}
+
+.topContent{
+    display: flex;
+}
+
+/* w3schools.com, 'dropdowns', [online] available: https://www.w3schools.com/css/css_dropdowns.asp [accessed: 11 mar 2023]*/
+/* sort button css */
+.dropbtn {
+    background-color: #ff7ab6;
+    color: #303030;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+ }
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #303030;
+    color: white;
+ }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 835px;
+    padding-top: 40px;
+ }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+ }
+  
+.show {
+    display:block;
+ }
+ /* end of sort button css */
+
+ .newsletterBody{
+    display: flex;
+ }
+
+ .newsletterTitle:hover{
+    scale: 103%;
+    transition: 0.3s;
+    color: #303030;
+ }
+
+ /* .newsletterTitle {
+    position: relative;
+  }
+  
+  .newsletterTitle::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #303030;
+    transform-origin: bottom right;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .newsletterTitle:hover::before {
+    transform-origin: bottom left;
+    transform: scale(1, 1);
+  } */
+
+ /* .newsletterTitle:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .newsletterTitle:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } */
+
+ .newsletterPostPic{
+    width: 450px;
+    height: auto;
+ }
+
+ .newsletterText{
+    padding-left: 50px;
+ }
+
+ .newsletterTitle{
+    font-size: 33px;
+ }
+
+ .newsletterDesc{
+    text-align: justify;
+    font-size: 25px;
+    color: #ff7ab6;
+ }
+
+ .pageNumber{
+    font-size: 18px;
+    text-align: center;
+    color: #303030;
+ }
+
+ .pageNumber:hover{
+    color:#ff7ab6;
+    transition: 0.3s;
+ }
+
+ /* Footer CSS */
+footer * {
+    width: 100%;
+    background-color: #ff7ab6;
+    color: #303030;
+}
+
+#footerMain{
+    display: flex;
+}
+
+.subscription{
+    padding-left: 67px;
+}
+
+.socials{
+    padding-left: 200px;
+    padding-right: 0px;
+}
+
+.subDesc{
+    font-size: 17px;
+}
+
+#email{
+    padding-bottom: 0px;
+    display: block;
+}
+
+.typeEmail{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+
+.buttonEmail{
+    width: 150px;
+    height: 40px;
+}
+
+button:hover{
+    background-color: #303030;
+    color: white;
+    transition: 0.3s;
+}
+
+.socIcon{
+    width: auto;
+    height: 40px;
+    float: left;
+    padding-right: 15px;
+}
+
+#pigeon{
+    width: auto;
+    height: 45px;
+    padding-right: 10px;
+}
+
+footer h4{
+    font-size: 17px;
+    display: block;
+}
+
+.pigeon{
+    padding-top: 10px;
+}
+
+.camera{
+    padding-top: 10px;
+}
+
+.play{
+    padding-top: 10px;
+}
+
